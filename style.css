@@ -1,0 +1,44 @@
+body, html{
+    height: 100%;
+}
+
+.fundo{
+    background-image: url("https://static.preparaenem.com/2022/08/paisagem-natural-suica.jpg");
+    background-size: cover;
+}
+
+.titulos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Brush Script MT, fantasy;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+h1{
+    margin-top: -4%;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: -15%;
+
+    width: 13%;
+    height: 60px;
+    background-color: white;
+    border-color: rgb(215, 215, 215);
+    color: rgb(78, 78, 78);
+    border-width: 5px solid;
+}
+
+.logo{
+    display: flex;
+    width: 5%;
+    margin: 0;
+    padding: 0;
+}
