@@ -54,6 +54,10 @@ body, html{
     transition-duration: 0.2s;
 }
 
+.explore a:active{
+    padding: 15px;
+}
+
 .logo{
     display: flex;
     position: absolute;
@@ -81,17 +85,16 @@ body, html{
 
 .links a{
     text-decoration: none;
-    color: black;
-    border-radius: 5px;
+    color: white;
     padding: 10px;
-    background-color: rgb(216, 216, 216);
-    border: 3px solid white;
 }
 
-.links a:hover {
-    background-color: rgb(55, 176, 174);
-    border-color: rgb(27, 205, 214);
-    padding: 10px;
+.links a:hover{
     color: white;
     transition-duration: 0.2s;
+    margin-top: -10px;
+}
+
+.links a:active{
+    color: rgb(27, 205, 214);
 }
