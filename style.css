@@ -55,7 +55,7 @@ body, html{
 }
 
 .explore a:active{
-    padding: 15px;
+    transform: scale(0.90);
 }
 
 .logo{
